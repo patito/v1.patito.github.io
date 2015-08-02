@@ -1,0 +1,78 @@
+# Site settings
+
+url: "http://patito.github.io"
+title: "{ Home }"
+description: "A little bit about me"
+keywords: "nerd, programming"
+#favicon: "/img/favicon.ico"
+#black-favicon: "/img/black-lab-glass.ico"
+google-tracking-id: "UA-35880426-3"
+disqus-shortname: "benatto"
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+
+background-img: "/img/intro-bg.jpg"
+
+# About variables
+
+me-img: "/img/me.jpg"
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+
+# Career variables
+
+events:
+  - image: "/img/career/brandwatch.jpg"
+    date: "September 2014 - Today"
+    description: "Linux Systems Administrator @ <a href=\"http://www.brandwatch.com\" target=\"_blank\">Brandwatch</a>. Every day I work with Debian Linux Servers, Python, Backups, Ansible and much more fun. =D "
+  - image: "/img/career/dba.jpg"
+    date: "December 2013 - March 2014"
+    description: "Software Engineer Freelancer @ <a href=\"http://www.dba.eng.br\" target=\"_blank\">DBA</a>. Worked in a Parking Meter System project. More C and Python coding. "
+  - image: "/img/career/sec.jpg"
+    date: "December 2012 - December 2013"
+    description: "Software Engineer @ <a href=\"http://www.github.com/SecPlus\" target=\"_blank\">SEC+</a>. Developed security softwares to analyze linux binaries."
+  - image: "/img/career/digitro.jpg"
+    date: "September 2008 - December 2012"
+    description: "Working as Software Engineer at <a href=\"http://digitro.com.br\" target=\"_blank\">Digitro</a>. Developed a lot C Softwares to VoIP area."
+  - image: "/img/career/voffice.jpg"
+    date: "January 2008 - September 2008"
+    description: "My first job was at <a href=\"http://www.voffice.com.br\" target=\"_blank\">VOffice</a>, as Jr. Software Engineer. Working with Linux and Asterisk."
+  - image: "/img/career/uoa.jpg"
+    date: "January 2002 - December 2007"
+    description: "Learning Pascal :D @ <a href=\"http://unioeste.br\" target=\"_blank\">Unioeste</a> BSc. Computer Science"
+
+# First image of the Career timeline
+career-img: "/img/career/default.jpg"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "rss"
+    url: "/feed.xml"
+  - title: "github"
+    url: "https://github.com/patito"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/benatto"
+  - title: "twitter"
+    url: "https://twitter.com/pbenatto"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
