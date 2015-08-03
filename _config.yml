@@ -30,7 +30,7 @@ paginate: 15
 
 paginate_path: "blog/page:num"
 
-post-preview-words: 128
+post-preview-words: 35
 
 fb-share: True
 twitter-share: True
