@@ -1,0 +1,17 @@
+---
+layout: post
+section-type: post
+title: GopherCon 2015
+category: tech
+tags: [ 'Golang', 'GopherCon' ]
+---
+
+Yesterday I received an email from a Brazilian friend with the link of Gopher Conference 2015. It happened in Denver, Colorado, and attracted more than 1,250 attendees. I'm not a Go developer yet, but I'm always studying about the language.
+
+This is the first video I watched and it was really interesting to me see how and why *Audrey Lim* chose Go as her first programming language.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fZh8uCInEfw" frameborder="0" allowfullscreen></iframe>
+
+You can see much more videos at [GopherCon 2015](https://blog.golang.org/gophercon2015).
+
+

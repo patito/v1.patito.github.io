@@ -7,17 +7,16 @@
 		<atom:link href="http://patito.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Hello</title>
+				<title>GopherCon 2015</title>
 				        
 				
-					<description>Hello
-
+					<description>Yesterday I received an email from a Brazilian friend with the link of Gopher Conference 2015. It happened in Denver, Colorado, and attracted more than 1,250 attendees. I&#39;m not a Go developer yet, but I&#39;m always studying about the language.
 
 </description>
 				
-				<pubDate>Sat, 27 Jun 2015 00:00:00 +0100</pubDate>
-				<link>http://patito.github.io/tech/2015/06/27/blogging-like-a-hacker.html</link>
-				<guid isPermaLink="true">http://patito.github.io/tech/2015/06/27/blogging-like-a-hacker.html</guid>
+				<pubDate>Mon, 03 Aug 2015 00:00:00 +0100</pubDate>
+				<link>http://patito.github.io/tech/2015/08/03/gophercon.html</link>
+				<guid isPermaLink="true">http://patito.github.io/tech/2015/08/03/gophercon.html</guid>
 			</item>
 		
 	</channel>
