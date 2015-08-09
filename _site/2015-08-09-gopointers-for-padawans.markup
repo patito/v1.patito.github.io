@@ -1,0 +1,86 @@
+
+# Go Pointers for Padawans
+
+Hi my friend, 
+
+like you I'm also trying to learn more about Go langugage. I've always wanted to learn
+more about Go, but as usual I always had an excuse on the tip of my tongue to postpone this learning.
+But now I'm done. I have a good introduction book, *An Introduction to Programming in Go* and I can read
+*Effective Go* online.
+
+Since last week I'm reading about Go, I started because a lot of friends of mine are using it
+and they are encouraging (pissing me off) me to do the same.
+
+I'm a complete newbie in this technology, so if you are advanced hacker mother fucker, this is not for
+you, go play RPG with your imaginary ORCs. But if you are just a *padawan* like me, try to not sleep
+while reading.
+
+If you see something wrong just leave me a comment and I will fix as soon as possible. Just to be clear
+"You suck Hobbit" is not a good comment.
+
+## Pointers: What these Mother Fuckers are?
+
+When I used to develop software, Pointers always scared a lot of programmers, mainly java programmers
+(calm down, just a joke =). It is really common to hear developers linking this subject with C language.
+But in fact a lot of language has pointers, in some languages they are more explicity than others. I agree
+manage pointers/memory sometimes can be a pain in the ass, but I think this is not the case of Go.
+
+If the concept of pointers is new to you, no worries, let's learn together. In a few words pointers is
+*A variable that stores the address of other variable*. Come here my little boy, an *integer* variable
+stores a number/integer right? So, in the same way a pointer stores an address.
+
+Jon Snow: Hey, Hey what is an Address?
+Me: You are kidding me?
+Jon Snow: Not really
+Me: you deserved all those stab wounds, Jon Snow.
+
+Ok, because Jon Snow knows nothing I will explain what are an address. When you declare a variable in
+your preferred language, in fact you are asking to Operating System a slice of the memory to store
+a value (In case of java, all memory =).
+
+For example:
+
+    var age int
+    age = 10
+
+
+          Your Memory      Address       
+        +--------------+
+        |      10      |  0x011fe34
+        +--------------+
+        |              |  
+        +--------------+
+        |              |  
+        +--------------+
+
+As you can see your age variable has an address, and in that address we stored the value 10. So in case
+of a Pointer will store an address instead of an integer. Look the example bellow
+
+          Your Memory      Address       
+        +--------------+
+        |   0x02a8e1   |  0x011fe34
+        +--------------+
+        |              |  
+        +--------------+
+        |              |  
+        +--------------+
+
+Easy peasy lemon squeezy?!? 
+
+## Why they are so scary?
+
+## Declaring pointers
+
+## Operators: * and &
+
+## How does it work?
+
+## Method New
+
+## Example: swap function
+
+## References
+
+  - Effective Go
+  - 
+  - Google
