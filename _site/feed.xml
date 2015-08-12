@@ -7,6 +7,19 @@
 		<atom:link href="http://patito.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Starting in Python</title>
+				        
+				
+					<description>&lt;p&gt;Hi guys new post in my github about pip, easy_install, virtual environments and git. &lt;a href=&quot;https://github.com/patito/teaching-my-wife/blob/master/README.md&quot;&gt;Enjoy it.&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 12 Aug 2015 00:00:00 +0100</pubDate>
+				<link>http://patito.github.io/tech/2015/08/12/starting.html</link>
+				<guid isPermaLink="true">http://patito.github.io/tech/2015/08/12/starting.html</guid>
+			</item>
+		
+			<item>
 				<title>Go Pointers For Padawans</title>
 				        
 				
